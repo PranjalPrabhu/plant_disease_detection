@@ -4,7 +4,7 @@ import cv2
 import tensorflow as tf
 from keras.models import load_model
 
-model = load_model('model.h5')
+model = load_model('C:\archive\Streamlit app\model.h5')
 
 CLASS_NAMES = ['Tomato___Bacterial_spot', 'Potato___Early_blight', 'Corn_(maize)___Common_rust_']
 
